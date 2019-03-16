@@ -17,7 +17,7 @@ public class MainActivity extends AppCompatActivity {
         EditText area = (EditText) findViewById(R.id.Name);
         Log.i("name", name.getText().toString());
         Log.i("number", number.getText().toString());
-        Toast.makeText(MainActivity.this, "Hi There!"+name, Toast.LENGTH_SHORT).show();
+        Toast.makeText(MainActivity.this, "hi there!", Toast.LENGTH_SHORT).show();
     }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
